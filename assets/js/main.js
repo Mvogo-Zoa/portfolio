@@ -389,6 +389,12 @@ const temoignages = [
         texte: "assets/img/temoignage2.png",
         type: "capture" // "capture" = image | "texte" = texte simple
     },
+    {
+        nom: "Agossou",
+        pays: "Burkina Faso",
+        texte: "assets/img/temoignage3.png",
+        type: "capture" // "capture" = image | "texte" = texte simple
+    }
     // Ajoute ici ↓
     // { nom: "Marie L.", pays: "France", texte: "assets/img/temoignages/marie.jpg", type: "capture" },
 ];
