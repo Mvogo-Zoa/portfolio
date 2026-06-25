@@ -147,6 +147,19 @@ section {
     z-index: 999;
 }
 
+@media (min-width: 769px) {
+    .nav-links {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+        padding: 0;
+        gap: 40px;
+    }
+    .hamburger {
+        display: none !important;
+    }
+}
 .nav-links.open {
     display: flex;
 }
@@ -155,6 +168,13 @@ section {
     .hamburger {
         display: flex;
     }
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
 }
 
 .nav-links a {
