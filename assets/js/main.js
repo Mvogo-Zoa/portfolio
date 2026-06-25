@@ -39,7 +39,7 @@ const formations = {
             "Suivi et questions répondues directement par le formateur"
         ],
         total: 33,
-        done: 10,
+        done: 12,
         lien: "https://cqqzswqd.mychariow.shop/prd_nf5yoi"
     },
     java: {
@@ -100,20 +100,20 @@ const formations = {
         description: "HTML5 est la porte d'entrée du développement web. Tu apprends à structurer, styliser et publier des pages web professionnelles. Le point de départ de tout développeur web sérieux.",
         modalites: [
             "28 chapitres complets",
-            "2 à 3Sessions du lundi au samedi à 18h00 et 20h30",
+            "2 à 3 Sessions du lundi au samedi à 18h00 et 20h30",
             "Vidéos courtes de 5 à 10 minutes par chapitre",
             "Guide PDF complet disponible à l'achat",
             "Groupe WhatsApp privé réservé aux acheteurs du guide",
             "Projet site web complet en fin de formation"
         ],
         total: 28,
-        done: 5,
+        done: 6,
         lien: "https://cqqzswqd.mychariow.shop/prd_5g2t1w"
     },
     cyber: {
         titre: "Formation Cybersecurite",
         badge: "Aout 2025",
-        img: "assets/img/cyber.png",
+        img: "assets/img/cyber.jpeg",
         description: "La cybersécurité est l'un des domaines les plus recherchés au monde. Cette formation intensive couvre Linux, les réseaux, Python appliqué à la sécurité, l'ethical hacking et la cryptographie — avec une certification CodePowerPlus+ à la clé.",
         modalites: [
             "8 modules complets — du débutant à l'intermédiaire",
