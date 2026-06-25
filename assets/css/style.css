@@ -1074,13 +1074,21 @@ section {
     height: 280px;
 }
 
+
 .floating-card {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: fit-content;
+    width: 90%;
+    justify-content: center;
     bottom: -30px;
 }
+
+.hero-badge {
+    font-size: 0.75rem;
+    padding: 8px 14px;
+}
+
 }
 
 /* ── GUIDES ── */
