@@ -23,6 +23,23 @@ document.querySelectorAll('.progress-fill').forEach(bar => {
     bar.style.width = percent + '%';
 });
 
+// ── HAMBURGER MENU ──
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('open');
+});
+
+// Fermer le menu quand on clique sur un lien
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('open');
+    });
+});
+
 // ── DONNEES FORMATIONS ──
 const formations = {
     python: {
