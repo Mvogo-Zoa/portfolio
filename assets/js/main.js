@@ -56,7 +56,7 @@ const formations = {
             "Suivi et questions répondues directement par le formateur"
         ],
         total: 33,
-        done: 12,
+        done: 23,
         lien: "https://cqqzswqd.mychariow.shop/prd_nf5yoi"
     },
     java: {
@@ -73,7 +73,7 @@ const formations = {
             "Projet réel intégré dans la formation"
         ],
         total: 14,
-        done: 0,
+        done: 11,
         lien: "https://cqqzswqd.mychariow.shop/prd_sih8j8"
     },
     javascript: {
@@ -90,7 +90,7 @@ const formations = {
             "Exercices pratiques à chaque chapitre"
         ],
         total: 20,
-        done: 5,
+        done: 10,
         lien: "https://cqqzswqd.mychariow.shop/prd_5e4rt3"
     },
     c: {
@@ -107,7 +107,7 @@ const formations = {
             "Exercices de logique et de mémoire inclus"
         ],
         total: 9,
-        done: 3,
+        done: 5,
         lien: "https://cqqzswqd.mychariow.shop/prd_x6a94w"
     },
     html5: {
@@ -124,7 +124,7 @@ const formations = {
             "Projet site web complet en fin de formation"
         ],
         total: 28,
-        done: 6,
+        done: 7,
         lien: "https://cqqzswqd.mychariow.shop/prd_5g2t1w"
     },
     cyber: {
