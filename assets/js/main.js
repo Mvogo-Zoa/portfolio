@@ -44,101 +44,144 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 const formations = {
     python: {
         titre: "Formation Python",
-        badge: "En cours",
+        badge: "Formation complète",
         img: "assets/img/python.jpeg",
-        description: "Python est le langage idéal pour débuter en programmation. Logique claire, syntaxe simple, puissance réelle. Cette formation te donne une maitrise solide des bases jusqu'aux projets concrets — avec Pygame pour aller plus loin.",
+        description: "La formation Python est terminée dans son intégralité. Des bases de la syntaxe jusqu'aux projets concrets avec Pygame, tu disposes d'un parcours complet, validé par plus de 50 apprenants qui l'ont suivi jusqu'au bout.",
         modalites: [
-            "33 chapitres structurés, du débutant au niveau intermédiaire",
-            "2 à 3 Sessions du lundi au samedi à 18h00 et 20h30",
+            "33 chapitres complets, du débutant au niveau intermédiaire",
+            "Rediffusions disponibles pour l'ensemble des chapitres",
             "Vidéos courtes de 5 à 10 minutes par chapitre",
-            "Guide PDF complet disponible à l'achat",
+            "Guide PDF complet disponible à l'achat, structure identique aux sessions",
             "Groupe WhatsApp privé réservé aux acheteurs du guide",
-            "Suivi et questions répondues directement par le formateur"
+            "Accès à vie au contenu une fois le guide acquis"
         ],
         total: 33,
-        done: 23,
+        done: 33,
         lien: "https://cqqzswqd.mychariow.shop/prd_nf5yoi"
     },
     java: {
         titre: "Formation Java",
-        badge: "En cours",
+        badge: "Formation complète",
         img: "assets/img/java.jpeg",
-        description: "Java est le langage des applications robustes, des systèmes d'entreprise et du développement desktop. Cette formation te forme sur les fondamentaux solides qui font de toi un développeur sérieux et employable.",
+        description: "La formation Java est terminée. Un parcours complet sur les fondamentaux qui font de toi un développeur sérieux et employable, avec un projet réel intégré pour valider tes acquis.",
         modalites: [
-            "14 chapitres denses et concrets",
-            "2 à 3 Sessions du lundi au samedi à 18h00 et 20h30",
+            "14 chapitres complets et denses",
+            "Rediffusions disponibles pour l'ensemble des chapitres",
             "Vidéos courtes de 5 à 15 minutes par chapitre",
             "Guide PDF complet disponible à l'achat",
             "Groupe WhatsApp privé réservé aux acheteurs du guide",
             "Projet réel intégré dans la formation"
         ],
         total: 14,
-        done: 11,
+        done: 14,
         lien: "https://cqqzswqd.mychariow.shop/prd_sih8j8"
     },
     javascript: {
         titre: "Formation JavaScript",
-        badge: "En cours",
+        badge: "Formation complète",
         img: "assets/img/JavaScript.jpeg",
-        description: "JavaScript est le langage du web. Il tourne partout — navigateur, serveur, mobile. Cette formation te donne les bases solides pour créer des interfaces dynamiques et comprendre l'écosystème web moderne.",
+        description: "La formation JavaScript est terminée. Un parcours complet pour créer des interfaces dynamiques et comprendre l'écosystème web moderne, du premier script jusqu'aux projets pratiques.",
         modalites: [
-            "20 chapitres progressifs",
-            "2 à 3 Sessions du lundi au samedi à 18h00 et 20h30",
+            "20 chapitres complets et progressifs",
+            "Rediffusions disponibles pour l'ensemble des chapitres",
             "Vidéos courtes de 5 à 10 minutes par chapitre",
             "Guide PDF complet disponible à l'achat",
             "Groupe WhatsApp privé réservé aux acheteurs du guide",
             "Exercices pratiques à chaque chapitre"
         ],
         total: 20,
-        done: 10,
+        done: 20,
         lien: "https://cqqzswqd.mychariow.shop/prd_5e4rt3"
     },
     c: {
         titre: "Formation C",
-        badge: "En cours",
+        badge: "Formation complète",
         img: "assets/img/c.jpeg",
-        description: "Le langage C est la fondation de l'informatique moderne. Comprendre le C, c'est comprendre comment un ordinateur fonctionne vraiment. Une formation exigeante qui fait la différence entre un bon et un excellent développeur.",
+        description: "La formation C est terminée. Comprendre le C, c'est comprendre comment un ordinateur fonctionne vraiment — un parcours exigeant qui fait la différence entre un bon et un excellent développeur.",
         modalites: [
-            "9 chapitres fondamentaux et rigoureux",
-            "2 à 3 Sessions du lundi au samedi à 18h00 et 20h30",
+            "9 chapitres complets et rigoureux",
+            "Rediffusions disponibles pour l'ensemble des chapitres",
             "Vidéos courtes de 5 à 10 minutes par chapitre",
             "Guide PDF complet disponible à l'achat",
             "Groupe WhatsApp privé réservé aux acheteurs du guide",
             "Exercices de logique et de mémoire inclus"
         ],
         total: 9,
-        done: 5,
+        done: 9,
         lien: "https://cqqzswqd.mychariow.shop/prd_x6a94w"
     },
     html5: {
         titre: "Formation HTML5",
-        badge: "En cours",
+        badge: "Formation complète",
         img: "assets/img/HTML5.jpeg",
-        description: "HTML5 est la porte d'entrée du développement web. Tu apprends à structurer, styliser et publier des pages web professionnelles. Le point de départ de tout développeur web sérieux.",
+        description: "La formation HTML5 est terminée. Le point de départ de tout développeur web sérieux, jusqu'à la publication d'un site complet et professionnel.",
         modalites: [
             "28 chapitres complets",
-            "2 à 3 Sessions du lundi au samedi à 18h00 et 20h30",
+            "Rediffusions disponibles pour l'ensemble des chapitres",
             "Vidéos courtes de 5 à 10 minutes par chapitre",
             "Guide PDF complet disponible à l'achat",
             "Groupe WhatsApp privé réservé aux acheteurs du guide",
             "Projet site web complet en fin de formation"
         ],
         total: 28,
-        done: 7,
+        done: 28,
         lien: "https://cqqzswqd.mychariow.shop/prd_5g2t1w"
     },
     cyber: {
-        titre: "Formation Cybersecurite",
-        badge: "Aout 2025",
-        img: "assets/img/cyber.jpeg",
-        description: "La cybersécurité est l'un des domaines les plus recherchés au monde. Cette formation intensive couvre Linux, les réseaux, Python appliqué à la sécurité, l'ethical hacking et la cryptographie — avec une certification CodePowerPlus+ à la clé.",
+        titre: "Formation Cybersécurité",
+        badge: "Ouverture des inscriptions — Août 2026",
+        img: "assets/img/cyber.png",
+        description: "La cybersécurité est aujourd'hui l'un des domaines tech les plus demandés — et les moins enseignés correctement en Afrique francophone. Cette formation de 3 mois te transforme, étape par étape, d'un débutant total en un profil capable de comprendre, sécuriser et auditer un système réel. Chaque module est concret : tu appliques immédiatement ce que tu apprends, sur un vrai environnement Linux.",
+        modules: [
+            {
+                titre: "Module 0 — Bases, notions et environnement",
+                description: "Choix du système d'exploitation, pourquoi Ubuntu est la base idéale pour démarrer en sécurité, installation complète de ton environnement de travail. Tu pars sur des fondations propres, sans confusion technique dès le départ."
+            },
+            {
+                titre: "Module 1 — Fondamentaux Linux & Terminal",
+                description: "Maîtrise du terminal, navigation système, gestion des fichiers et permissions, commandes essentielles. La cybersécurité se pratique en ligne de commande — ce module te rend à l'aise avant d'aller plus loin."
+            },
+            {
+                titre: "Module 2 — Réseaux & Protocoles",
+                description: "Comprendre comment les données circulent réellement : adresses IP, ports, protocoles TCP/IP, DNS, HTTP. Les bases indispensables pour comprendre comment un système peut être attaqué — ou protégé."
+            },
+            {
+                titre: "Module 3 — Python appliqué à la Sécurité",
+                description: "Utilisation de la librairie socket pour créer tes propres serveurs et clients, simuler des échanges de données réels, configurer et sécuriser un serveur. Introduction aux librairies requests et aux processus système. Tu écris du code qui interagit vraiment avec un réseau."
+            },
+            {
+                titre: "Module 4 — Outils de reconnaissance",
+                description: "Découverte des outils professionnels de scan et de collecte d'informations sur un système ou un réseau. La première étape technique de toute démarche de sécurité, avant même de penser à corriger quoi que ce soit."
+            },
+            {
+                titre: "Module 5 — Cryptographie & Mots de passe",
+                description: "Comment les mots de passe sont réellement protégés (ou compromis) : hachage, chiffrement, bonnes pratiques de stockage. Tu comprends enfin ce qui se passe derrière un simple champ de connexion."
+            },
+            {
+                titre: "Module 6 — Introduction au Hacking Éthique",
+                description: "La posture, la méthodologie et les limites légales du hacking éthique. Comment penser comme un attaquant pour mieux défendre un système, dans un cadre strictement professionnel et responsable."
+            },
+            {
+                titre: "Module 7 — Projet Final & Certification",
+                description: "Mise en pratique de tout ce que tu as appris sur un projet réel encadré, suivi d'une attestation de complétion CodePowerPlus+. Tu termines avec une preuve concrète de ta progression."
+            }
+        ],
         modalites: [
-            "8 modules complets — du débutant à l'intermédiaire",
-            "Prérequis : bases en Python",
-            "Environnement réel : Ubuntu + Kali Linux via VirtualBox",
-            "Outils professionnels : Tor, Nmap, Wireshark et plus",
-            "Projet final avec certification CodePowerPlus+",
-            "Early Bird : 18 000 FCFA pour les 20 premiers inscrits"
+        "Durée : 3 mois complets, répartis en 8 modules progressifs (Module 0 à 7)",
+        "Prérequis unique : bases en Python (la formation Python de CodePowerPlus+ suffit largement)",
+        "Après ton inscription : accès immédiat au guide PDF disponible module par module, livré au rythme de la formation",
+        "Chaque semaine : nouveaux chapitres du guide + session pratique + vidéo de démonstration filmée pas à pas",
+        "Environnement 100% réel : Ubuntu pour les fondamentaux, introduction progressive à Kali Linux à partir du Module 4",
+        "Outils professionnels utilisés en conditions réelles selon le module",
+        "Accès à un groupe WhatsApp privé réservé aux membres inscrits",
+        "Suivi individuel : le formateur répond directement à tes blocages",
+        "Projet final appliqué + attestation de complétion CodePowerPlus+",
+        "Places limitées pour le lancement — contacte-nous directement pour connaître les modalités d'inscription"
+    ],
+        pourquoi: [
+            "Pourquoi cette formation plutôt qu'une autre : pensée pour un vrai débutant africain, sans prérequis en anglais technique ni matériel coûteux — juste un PC et de la rigueur.",
+            "Ce que tu peux réellement attendre : une compréhension concrète des bases réseau, Linux et sécurité, module par module, jusqu'à un projet final appliqué.",
+            "Pourquoi faire confiance : la même méthode structurée qui a déjà mené plus de 50 apprenants à terminer les 5 formations en programmation jusqu'au bout."
         ],
         total: 8,
         done: 0,
@@ -146,7 +189,6 @@ const formations = {
     }
 };
 
-// ── MODAL ──
 function openModal(id) {
     const f = formations[id];
     if (!f) return;
@@ -164,16 +206,64 @@ function openModal(id) {
         list.appendChild(li);
     });
 
-    const percent = Math.round((f.done / f.total) * 100);
-    document.getElementById('modal-progress-fill').style.width = percent + '%';
-    document.getElementById('modal-progress-text').textContent = f.done + ' / ' + f.total + ' chapitres';
+    // Modules détaillés (Cyber uniquement)
+    const modulesWrap = document.getElementById('modal-modules-wrap');
+    const modulesList = document.getElementById('modal-modules-list');
+    modulesList.innerHTML = '';
+    if (f.modules && f.modules.length) {
+        f.modules.forEach(m => {
+            const block = document.createElement('div');
+            block.className = 'modal-module-item';
+            const h5 = document.createElement('h5');
+            h5.textContent = m.titre;
+            const p = document.createElement('p');
+            p.textContent = m.description;
+            block.appendChild(h5);
+            block.appendChild(p);
+            modulesList.appendChild(block);
+        });
+        modulesWrap.style.display = '';
+    } else {
+        modulesWrap.style.display = 'none';
+    }
+
+    // Pourquoi cette formation (Cyber uniquement)
+    const pourquoiWrap = document.getElementById('modal-pourquoi-wrap');
+    const pourquoiList = document.getElementById('modal-pourquoi-list');
+    pourquoiList.innerHTML = '';
+    if (f.pourquoi && f.pourquoi.length) {
+        f.pourquoi.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            pourquoiList.appendChild(li);
+        });
+        pourquoiWrap.style.display = '';
+    } else {
+        pourquoiWrap.style.display = 'none';
+    }
+
+    // Barre de progression (masquée pour Cyber, pas encore lancée)
+    const progressWrap = document.getElementById('modal-progress-wrap');
+    if (id === 'cyber') {
+        progressWrap.style.display = 'none';
+    } else {
+        progressWrap.style.display = '';
+        const percent = Math.round((f.done / f.total) * 100);
+        document.getElementById('modal-progress-fill').style.width = percent + '%';
+        document.getElementById('modal-progress-text').textContent = f.done + ' / ' + f.total + ' chapitres';
+    }
 
     const cta = document.getElementById('modal-cta');
     cta.href = f.lien;
-    cta.textContent = id === 'cyber' ? 'Je veux etre notifie' : 'Obtenir le guide';
+    cta.textContent = id === 'cyber' ? 'Réserver ma place' : 'Obtenir le guide';
 
     document.getElementById('modal-overlay').classList.add('active');
     document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('active');
+    document.body.style.overflow = '';
 }
 
 function closeModal() {
