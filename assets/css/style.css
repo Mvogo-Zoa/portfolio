@@ -2108,3 +2108,24 @@ section {
         display: none !important;
     }
 }
+
+
+.badge-complete {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 8px;
+    padding: 3px 10px;
+    background: rgba(0, 194, 255, 0.12);
+    border: 1px solid rgba(0, 194, 255, 0.35);
+    border-radius: 20px;
+    color: var(--accent-cyan, #00c2ff);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+}
+
+.badge-complete svg {
+    flex-shrink: 0;
+}
