@@ -2189,3 +2189,15 @@ section {
         display: none !important;
     }
 }
+
+@media (max-width: 900px) {
+    .hero-image-wrapper {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 480px !important;
+        aspect-ratio: 4 / 5 !important;
+        margin: 0 auto !important;
+        border-radius: 16px !important;
+        overflow: hidden !important;
+    }
+}
