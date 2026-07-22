@@ -2068,7 +2068,7 @@ section {
         left: 0 !important;
         width: 100% !important;
         height: 100% !important;
-        object-fit: contain !important;
+        object-fit: cover !important;
         object-position: center center !important;
         display: block !important;
     }
