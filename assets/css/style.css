@@ -2117,16 +2117,6 @@ section {
         gap: 16px !important;
     }
 
-    .hero-image-wrapper {
-        position: relative !important;
-        width: 100% !important;
-        max-width: 320px !important;
-        aspect-ratio: 1 / 1 !important;
-        margin: 0 auto !important;
-        border-radius: 16px !important;
-        overflow: hidden !important;
-    }
-
     .hero-image-wrapper img {
         position: absolute !important;
         top: 0 !important;
